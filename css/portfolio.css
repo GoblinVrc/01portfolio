@@ -1,0 +1,95 @@
+
+body {background:white;font-size: 16px;padding-bottom: 110px;}
+
+#branding {font-size: 2em;line-height: 2em;font-family: 'Pacifico', cursive;}
+#navigation {margin-top: 20px;}
+#menu-text {font-size: 25px;border-bottom: 2px solid black;font-family: 'Special Elite', cursive;}
+#hero-text {font-family: 'Frijole', cursive;}
+#skill-setup {height: 450px;border-top: 2px solid black;border-bottom: 2px solid black;}
+#drop-text-container {height: 120px;width: 150px;position: relative;top: 0%;left: 10%;background: transparent;}
+#skill-intro { font-family: 'Frijole', cursive;}
+#intro-upper-text {word-break: break-word;font-size: 1.35em;padding: 20px;padding-top: 5px;margin-top: 3px;}
+#intro-lower-text {font-family: 'Krona One', sans-serif;}
+#big-no {color: red;}
+#upper-paralax3 {font-family: 'Pacifico', cursive;font-size: 1.7em;position: relative;top: 20%; line-height: 1.2em;background :white;color: black;}
+#lower-paralax3 {font-family: 'Pacifico', cursive;font-size: 2.3em;position: relative;top: 75%; line-height: 1.2em;}
+
+.text-big > a {font-size: 250%;}
+.show-off {color: white;}
+.drop-text {font-family: 'Special Elite', cursive;font-weight: 600;font-size: 24px;color: white;}
+.glyphicon {font-size: 3em;}
+.underline-extra {border-top: 2px solid black;}
+.nav-item {margin-right:10px;width: 45%;}
+::-webkit-scrollbar {width: 0px;background: transparent;}
+.navi-link {line-height: 40px;display: block;height: 100%;font-size: 1.15em;font-family: 'Special Elite', cursive;}
+.nav-item-wrapper {height: 40px;border: 2px solid #99c679;border-radius: 8px;}
+.bg-color {background: white;}
+.skill-window {height: 30%;}
+.image {height: 100%;width: 150px;background-size: cover;}
+.image:hover {opacity: 0.7;}
+.text-big {font-size: 1em;}
+.centerized {word-break: keep-all;margin-top: auto;margin-bottom: auto;font-family: 'Krona One', sans-serif;}
+.btn-custom {color: black;border-radius: 15px;margin: 2px;font-size: 1.2em;font-family: 'Krona One', sans-serif;}
+.fat-link {font-size: 1.8em;}
+.with-limit {width: 100%; max-width: 100%;}
+
+
+.parallax {
+  background-image: url('../img/back/paralax/paralax-top.jpeg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+.parallax2 {
+  background-image: url('../img/back/paralax/paralax-500.jpg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat
+  ;background-size: cover;}
+
+.parallax3 {
+  background-image: url('../img/back/paralax/paralax-final-2.jpeg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+
+@media screen and (max-width:400px){
+  #big-no {color:red;letter-spacing: 10px;font-size: 1.2em;line-height: 1.35em;}
+}
+
+@media screen and (max-width:575px){
+  .show-off {position: relative;left: 15%;}
+  .drop-text {position: relative;left: -15%;}
+
+}
+
+@media screen and (min-width:576px){
+  .skill-window {height: 40%;}
+  .show-off {position: relative;left: 15%;}
+  .drop-text {position: relative;left: -15%;}
+}
+
+@media screen and (min-width:768px){
+  body {font-size: 16px;padding-bottom: 131px; }
+  #hero-text { font-size: 5em;}
+  #drop-text-container {display: none;left: 3%;top: 3%;}
+  #big-no {color:red;letter-spacing: 32px;font-size: 3.2em;}
+  #intro-lower-text {letter-spacing: 5px;font-size: 1.25em;}
+  .parallax {height: 500px;}
+  .parallax2 {height: 500px;}
+  .parallax3 {background-image: url('../img/back/paralax/paralax-final-2.jpeg');}
+  .navbar-toggle {display: none;}
+  .collapse {display: block;}
+  .drop-text {position: relative;left: -15%;font-family: 'Special Elite', cursive;font-weight: 600;font-size: 24px;color: black;}
+  .showOff {position: relative;left: 15%;color: black;}
+  .text-big {font-size: 1.7em;}
+  .skill-window {height: 75%;}
+  .image {width: 100%}
+  .intro-upper-Add {letter-spacing: 20px;font-size: 1.7em;}
+}
